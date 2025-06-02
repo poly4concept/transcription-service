@@ -1,6 +1,6 @@
 
 # Transcription Service - README
-You can read more about this service in this [article]()
+You can read more about this service in this [article](https://poly4.hashnode.dev/building-a-subtitle-service-for-your-app-using-aws-transcribe)
 
 ## Overview
 The **Transcription Service** enables transcription of video files stored in an S3 bucket, generates subtitles in VTT format, and stores them back into S3. This service uses AWS Transcribe to process the video files and generate the transcriptions. If the video file is not located in the same region as the transcription bucket, the service will automatically copy the video to the correct region before processing.
